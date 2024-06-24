@@ -18,7 +18,7 @@ usersRouter.put("/:email", async (req,res) => {
         }
     } catch (err){
         console.log(err)
-      res.status(500).send({message: "Internal server error"})
+      res.status(500).send({message: "Internal server errorr"})
     }
 });
 
